@@ -1,0 +1,10 @@
+2023-05-30 22:56:19.148 [00005512] [T] LiveUpdateChecker.App::App()
+2023-05-30 22:56:19.154 [00005512] [T] LiveUpdateChecker.App::LoadResource()
+2023-05-30 22:56:19.196 [00005512] [T] LiveUpdateChecker.App::IsSingleInstance()
+2023-05-30 22:56:19.197 [00005512] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2023-05-30 22:56:19.250 [00005512] [T] LiveUpdateChecker.MainWindow::MainWindow()
+2023-05-30 22:56:19.316 [00005512] [T] LiveUpdateChecker.MainWindow() Is Full Screen
+2023-05-30 22:56:19.322 [00017184] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()
+2023-05-30 22:56:19.329 [00017184] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex(), Exception: System.ApplicationException: Object synchronization method was called from an unsynchronized block of code.
+   at System.Threading.Mutex.ReleaseMutex()
+   at Acer.CareCenter.LiveUpdateChecker.SingleInstance.ReleaseMutex()

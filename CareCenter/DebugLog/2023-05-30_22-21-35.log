@@ -1,0 +1,50 @@
+2023-05-30 22:21:35.763 [00019248] [T] LiveUpdateChecker.App::App()
+2023-05-30 22:21:35.767 [00019248] [T] LiveUpdateChecker.App::LoadResource()
+2023-05-30 22:21:35.813 [00019248] [T] LiveUpdateChecker.App::IsSingleInstance()
+2023-05-30 22:21:35.815 [00019248] [T] LiveUpdateChecker.SingleInstance::SingleInstance()
+2023-05-30 22:21:35.865 [00019248] [T] LiveUpdateChecker.MainWindow::MainWindow()
+2023-05-30 22:21:36.015 [00019248] [T] LiveUpdateChecker.MainWindow::Window_Initialized()
+2023-05-30 22:21:36.025 [00019248] [T] LiveUpdateChecker.MainWindow::Hola()
+2023-05-30 22:21:36.025 [00019248] [D] LiveUpdateChecker.MainWindow::Hola(): ACCHOLA()
+2023-05-30 22:21:36.028 [00019248] [I] ACCHOLA::Program Initialization()
+2023-05-30 22:21:36.031 [00019248] [I] ACCHOLA:GetSerialNumber()
+2023-05-30 22:21:36.031 [00019248] [I] ACCHOLA:Get_WMI_Info()
+2023-05-30 22:21:36.085 [00019248] [I] ACCHOLA:GetMachineType()
+2023-05-30 22:21:36.140 [00019248] [I] ACCHOLA:ReadIni()
+2023-05-30 22:21:36.140 [00019248] [I] ACCHOLA:ReadIni()::iniPath::C:\ProgramData\Acer\CareCenter\HOLA.ini
+2023-05-30 22:21:36.144 [00019248] [I] ACCHOLA::Program Initialization(): No need to be checked HOLA AD Data.
+2023-05-30 22:21:36.147 [00019248] [T] LiveUpdateChecker.MainWindow::InitializeCheckUpdates()
+2023-05-30 22:21:36.147 [00019248] [T] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment()
+2023-05-30 22:21:36.158 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetOSCode()
+2023-05-30 22:21:36.158 [00019248] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Version: 10.0.22621.0
+2023-05-30 22:21:36.158 [00019248] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Major Version: 10
+2023-05-30 22:21:36.158 [00019248] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Minor Version: 0
+2023-05-30 22:21:36.167 [00019248] [D] LiveUpdater.UpdaterEnvironment::GetOSCode(): Can't find the matched OS code.
+2023-05-30 22:21:36.167 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): OS: 10M1
+2023-05-30 22:21:36.167 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetSupportedLangID()
+2023-05-30 22:21:36.168 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Language: EN
+2023-05-30 22:21:36.168 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetModel()
+2023-05-30 22:21:36.203 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Model: Nitro AN515-58
+2023-05-30 22:21:36.206 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetBrand()
+2023-05-30 22:21:36.206 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Brand: Acer
+2023-05-30 22:21:36.208 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetUpdaterVer()
+2023-05-30 22:21:36.209 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): ACC Version: ACC_4.00.3042
+2023-05-30 22:21:36.210 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetUpdaterDwordVer()
+2023-05-30 22:21:36.210 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): ACC DWORD Version: 67111906
+2023-05-30 22:21:36.211 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetSN()
+2023-05-30 22:21:37.223 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): SN: NHQFHSI0012110D5AF3400
+2023-05-30 22:21:37.223 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetKeyDim()
+2023-05-30 22:21:37.223 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): Local Directory: C:\ProgramData\Acer\updater2
+2023-05-30 22:21:37.224 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): FP URL: https://aluwsv2.acer.com/ServerInfo/EN/Nitro AN515-58/Nitro AN515-58_10M1_EN.xml
+2023-05-30 22:21:37.224 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): AP URL: https://aluwsv2.acer.com/ServerInfo/EN/ALU_APP/ALU_APP_10M1_EN.xml
+2023-05-30 22:21:37.225 [00019248] [T] LiveUpdater.UpdaterEnvironment::GenPubkey()
+2023-05-30 22:21:37.232 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetMetaFile()
+2023-05-30 22:21:37.233 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetLastBootUpTime()
+2023-05-30 22:21:37.404 [00019248] [D] LiveUpdater.UpdaterEnvironment::UpdaterEnvironment(): FUBDLR = 
+2023-05-30 22:21:37.404 [00019248] [T] LiveUpdater.UpdaterEnvironment::GetLastBootUpTime()
+2023-05-30 22:21:37.510 [00019248] [D] LiveUpdateChecker.MainWindow::InitializeCheckUpdates(): No need to be checked.
+2023-05-30 22:21:37.510 [00019248] [T] LiveUpdateChecker.MainWindow::Close()
+2023-05-30 22:21:37.537 [00003420] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex()
+2023-05-30 22:21:37.550 [00003420] [T] LiveUpdateChecker.SingleInstance::ReleaseMutex(), Exception: System.ApplicationException: Object synchronization method was called from an unsynchronized block of code.
+   at System.Threading.Mutex.ReleaseMutex()
+   at Acer.CareCenter.LiveUpdateChecker.SingleInstance.ReleaseMutex()
